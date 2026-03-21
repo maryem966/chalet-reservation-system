@@ -1,0 +1,83 @@
+.user-form-box {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  direction: ltr;
+}
+
+.form-box-title {
+  font-size: 22px;
+  text-align: center;
+  color: #00050a;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.styled-user-form .form-row {
+  margin-bottom: 20px;
+}
+
+.styled-user-form label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+.form-input:focus {
+  border-color: #60cff7;
+  background-color: white;
+  outline: none;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.form-submit-btn {
+  background-color: #f26d9e;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit-btn:hover {
+  background-color: #e85a8f;
+}
+
+.btn-back {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  border: none;
+}
+
+.btn-back:hover {
+  background-color: #45a049;
+}

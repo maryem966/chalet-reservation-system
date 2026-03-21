@@ -1,0 +1,522 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2026-03-20 22:14+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English <en@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ./src/Controller/ChaletsController.php:69
+msgid "حدث خطأ أثناء إضافة الشاليه."
+msgstr "An error occurred while adding the chalet."
+
+#: ./src/Controller/ChaletsController.php:107
+#: ./src/Controller/ClientsController.php:55
+msgid "لم يتم الحفظ، حاول مجدداً."
+msgstr "Not saved, please try again."
+
+#: ./src/Controller/ChaletsController.php:121
+#: ./src/Controller/ClientsController.php:68
+msgid "فشل الحذف، حاول مجدداً."
+msgstr "Deletion failed, please try again."
+
+#: ./src/Controller/ClientsController.php:40
+#: ./src/Controller/SocietesController.php:66
+#: ./src/Controller/TypechaletsController.php:42
+#: ./src/Controller/UsersController.php:49
+msgid "خطأ! حاول مجدداً."
+msgstr "Error! Please try again."
+
+#: ./src/Controller/ClientsController.php:101
+msgid "تعذر تحديث حالة الدفع."
+msgstr "Could not update payment status."
+
+#: ./src/Controller/ModespaiementsController.php:48
+msgid "حدث خطأ أثناء الحفظ. حاول مرة أخرى."
+msgstr "An error occurred while saving. Please try again."
+
+#: ./src/Controller/ModespaiementsController.php:67
+#: ./src/Controller/TarifsController.php:46
+#: ./src/Controller/TarifsController.php:67
+msgid "حدث خطأ، يرجى المحاولة مرة أخرى."
+msgstr "An error occurred, please try again."
+
+#: ./src/Controller/ModespaiementsController.php:82
+msgid "لم يتم حذف طريقة الدفع. حاول مجدداً."
+msgstr "Payment method wasn't deleted. Please try again."
+
+#: ./src/Controller/PiecesreglementsController.php:48
+msgid "Pièce de règlement enregistrée."
+msgstr "Payment document saved."
+
+#: ./src/Controller/PiecesreglementsController.php:51
+msgid "Erreur lors de l'enregistrement."
+msgstr "Error during saving."
+
+#: ./src/Controller/PiecesreglementsController.php:69
+msgid "Modification réussie."
+msgstr "Modification successful."
+
+#: ./src/Controller/PiecesreglementsController.php:72
+msgid "Échec de la modification."
+msgstr "Modification failed."
+
+#: ./src/Controller/PiecesreglementsController.php:89
+msgid "Pièce supprimée."
+msgstr "Document deleted."
+
+#: ./src/Controller/PiecesreglementsController.php:91
+msgid "La suppression a échoué."
+msgstr "Deletion failed."
+
+#: ./src/Controller/ReglementsController.php:94
+#: ./src/Controller/ReglementsController.php:168
+#: ./src/Controller/ReglementsController.php:336
+msgid "فشل حفظ تفاصيل وسيلة الدفع."
+msgstr "Failed to save payment method details."
+
+#: ./src/Controller/ReglementsController.php:97
+#: ./src/Controller/ReglementsController.php:171
+#: ./src/Controller/ReglementsController.php:339
+msgid "فشل حفظ الدفعة."
+msgstr "Failed to save payment."
+
+#: ./src/Controller/ReglementsController.php:199
+msgid "لم يتم حذف الدفع. حاول مرة أخرى."
+msgstr "Payment wasn't deleted. Please try again."
+
+#: ./src/Controller/ReservationsController.php:76
+msgid "تم حفظ الحجز بنجاح."
+msgstr "Reservation saved successfully."
+
+#: ./src/Controller/ReservationsController.php:80
+msgid "فشل في حفظ الحجز. حاول مرة أخرى."
+msgstr "Failed to save reservation. Please try again."
+
+#: ./src/Controller/ReservationsController.php:160
+msgid "فشل في تحديث الحجز. حاول مرة أخرى."
+msgstr "Failed to update reservation. Please try again."
+
+#: ./src/Controller/ReservationsController.php:200
+msgid "تعذر حذف الحجز. حاول مرة أخرى."
+msgstr "Could not delete reservation. Please try again."
+
+#: ./src/Controller/ReservationsdetailsController.php:38
+msgid "The reservation detail has been saved."
+msgstr "The reservation detail has been saved."
+
+#: ./src/Controller/ReservationsdetailsController.php:44
+msgid "The reservation detail could not be saved. Please, try again."
+msgstr "The reservation detail could not be saved. Please, try again."
+
+#: ./src/Controller/ReservationsdetailsController.php:62
+msgid "The reservationsdetail has been saved."
+msgstr "The reservationsdetail has been saved."
+
+#: ./src/Controller/ReservationsdetailsController.php:66
+msgid "The reservationsdetail could not be saved. Please, try again."
+msgstr "The reservationsdetail could not be saved. Please, try again."
+
+#: ./src/Controller/ReservationsdetailsController.php:79
+msgid "The reservationsdetail has been deleted."
+msgstr "The reservationsdetail has been deleted."
+
+#: ./src/Controller/ReservationsdetailsController.php:81
+msgid "The reservationsdetail could not be deleted. Please, try again."
+msgstr "The reservationsdetail could not be deleted. Please, try again."
+
+#: ./src/Controller/SocietesController.php:62
+msgid "تمت إضافة الشركة بنجاح."
+msgstr "Company added successfully."
+
+#: ./src/Controller/SocietesController.php:95
+msgid "تم تعديل معلومات الشركة."
+msgstr "Company information updated."
+
+#: ./src/Controller/SocietesController.php:98
+#: ./src/Controller/TypechaletsController.php:61
+msgid "تعذر التعديل. حاول مجددًا."
+msgstr "Could not update. Please try again."
+
+#: ./src/Controller/SocietesController.php:113
+#: ./src/Controller/TypechaletsController.php:77
+msgid "تعذر الحذف. حاول مجددًا."
+msgstr "Could not delete. Please try again."
+
+#: ./src/Controller/TarifsController.php:84
+msgid "لم يتم حذف التعريف. حاول مجدداً."
+msgstr "Rate was not deleted. Please try again."
+
+#: ./src/Controller/TypechaletsController.php:38
+msgid "تمت إضافة نوع الشاليه بنجاح."
+msgstr "Chalet type added successfully."
+
+#: ./src/Controller/TypechaletsController.php:57
+msgid "تم تعديل نوع الشاليه."
+msgstr "Chalet type updated."
+
+#: ./src/Controller/TypechaletsController.php:75
+msgid "تم حذف نوع الشاليه."
+msgstr "Chalet type deleted."
+
+#: ./src/Controller/UsersController.php:78
+msgid "The user could not be saved. Please, try again."
+msgstr "The user could not be saved. Please, try again."
+
+#: ./src/Controller/UsersController.php:94
+msgid "The user could not be deleted. Please, try again."
+msgstr "The user could not be deleted. Please, try again."
+
+#: ./templates/Chalets/chaletstable.php:3
+msgid "إدارة الشاليهات"
+msgstr "Chalets Management"
+
+#: ./templates/Chalets/chaletstable.php:4
+msgid "+ شاليه جديد"
+msgstr "+ New Chalet"
+
+#: ./templates/Chalets/chaletstable.php:18
+msgid "الصورة"
+msgstr "Image"
+
+#: ./templates/Chalets/chaletstable.php:19
+#: ./templates/Clients/clientstable.php:18
+#: ./templates/Typechalets/typechaletstable.php:12
+msgid "إجراءات"
+msgstr "Actions"
+
+#: ./templates/Chalets/index.php:8
+msgid "New Chalet"
+msgstr "New Chalet"
+
+#: ./templates/Chalets/index.php:9
+msgid "Chalets"
+msgstr "Chalets"
+
+#: ./templates/Chalets/index.php:21
+#: ./templates/Clients/index.php:26
+#: ./templates/Modespaiements/index.php:16
+#: ./templates/Reglements/index.php:19
+#: ./templates/Reservationsdetails/index.php:22
+#: ./templates/Reservationsdetails/view.php:10
+#: ./templates/Tarifs/index.php:19
+#: ./templates/Typechalets/index.php:23
+#: ./templates/societes/index.php:20
+#: ./templates/users/index.php:23
+msgid "Actions"
+msgstr "Actions"
+
+#: ./templates/Chalets/index.php:35
+#: ./templates/Clients/index.php:45
+#: ./templates/Modespaiements/index.php:25
+#: ./templates/Reglements/index.php:31
+#: ./templates/Reservationsdetails/index.php:37
+#: ./templates/Tarifs/index.php:31
+#: ./templates/Typechalets/index.php:35
+#: ./templates/societes/index.php:33
+#: ./templates/users/index.php:35
+msgid "View"
+msgstr "View"
+
+#: ./templates/Chalets/index.php:36
+#: ./templates/Clients/index.php:46
+#: ./templates/Modespaiements/index.php:26
+#: ./templates/Reglements/index.php:32
+#: ./templates/Reservationsdetails/index.php:38
+#: ./templates/Tarifs/index.php:32
+#: ./templates/Typechalets/index.php:36
+#: ./templates/societes/index.php:34
+#: ./templates/users/index.php:36
+msgid "Edit"
+msgstr "Edit"
+
+#: ./templates/Chalets/index.php:38
+#: ./templates/Clients/index.php:48
+#: ./templates/Modespaiements/index.php:28
+#: ./templates/Reglements/index.php:34
+#: ./templates/Reservationsdetails/index.php:40
+#: ./templates/Tarifs/index.php:34
+#: ./templates/Typechalets/index.php:38
+#: ./templates/societes/index.php:36
+#: ./templates/users/index.php:38
+msgid "Delete"
+msgstr "Delete"
+
+#: ./templates/Chalets/index.php:42
+#: ./templates/Clients/index.php:52
+#: ./templates/Modespaiements/index.php:32
+#: ./templates/Reglements/index.php:38
+#: ./templates/Reservationsdetails/index.php:44
+#: ./templates/Reservationsdetails/view.php:12
+#: ./templates/Tarifs/index.php:38
+#: ./templates/societes/index.php:40
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Are you sure you want to delete # {0}?"
+
+#: ./templates/Chalets/index.php:53
+#: ./templates/Clients/index.php:63
+#: ./templates/Modespaiements/index.php:43
+#: ./templates/Reglements/index.php:49
+#: ./templates/Reservationsdetails/index.php:55
+#: ./templates/Tarifs/index.php:49
+#: ./templates/societes/index.php:51
+msgid "first"
+msgstr "first"
+
+#: ./templates/Chalets/index.php:54
+#: ./templates/Clients/index.php:64
+#: ./templates/Modespaiements/index.php:44
+#: ./templates/Reglements/index.php:50
+#: ./templates/Reservationsdetails/index.php:56
+#: ./templates/Tarifs/index.php:50
+#: ./templates/societes/index.php:52
+msgid "previous"
+msgstr "previous"
+
+#: ./templates/Chalets/index.php:56
+#: ./templates/Clients/index.php:66
+#: ./templates/Modespaiements/index.php:46
+#: ./templates/Reglements/index.php:52
+#: ./templates/Reservationsdetails/index.php:58
+#: ./templates/Tarifs/index.php:52
+#: ./templates/societes/index.php:54
+msgid "next"
+msgstr "next"
+
+#: ./templates/Chalets/index.php:57
+#: ./templates/Clients/index.php:67
+#: ./templates/Modespaiements/index.php:47
+#: ./templates/Reglements/index.php:53
+#: ./templates/Reservationsdetails/index.php:59
+#: ./templates/Tarifs/index.php:53
+#: ./templates/societes/index.php:55
+msgid "last"
+msgstr "last"
+
+#: ./templates/Chalets/index.php:59
+#: ./templates/Clients/index.php:69
+#: ./templates/Modespaiements/index.php:49
+#: ./templates/Reglements/index.php:55
+#: ./templates/Reservationsdetails/index.php:61
+#: ./templates/Tarifs/index.php:55
+#: ./templates/Typechalets/index.php:65
+#: ./templates/societes/index.php:57
+#: ./templates/users/index.php:65
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+
+#: ./templates/Clients/clientstable.php:3
+msgid "إدارة العملاء"
+msgstr "Clients Management"
+
+#: ./templates/Clients/clientstable.php:4
+msgid "+ عميل جديد"
+msgstr "+ New Client"
+
+#: ./templates/Clients/index.php:8
+msgid "New Client"
+msgstr "New Client"
+
+#: ./templates/Clients/index.php:9
+msgid "Clients"
+msgstr "Clients"
+
+#: ./templates/Modespaiements/index.php:8
+msgid "New Modespaiement"
+msgstr "New Payment Method"
+
+#: ./templates/Modespaiements/index.php:9
+msgid "Modespaiements"
+msgstr "Payment Methods"
+
+#: ./templates/Modespaiements/modestable.php:9
+msgid "إدارة طرق الدفع"
+msgstr "Payment Methods Management"
+
+#: ./templates/Modespaiements/modestable.php:10
+msgid "+ طريقة جديدة"
+msgstr "+ New Method"
+
+#: ./templates/Modespaiements/modestable.php:18
+#: ./templates/Reglements/reglementstable.php:14
+#: ./templates/Reservations/index.php:14
+#: ./templates/Reservations/reservationstable.php:53
+#: ./templates/Tarifs/tarifstable.php:15
+#: ./templates/societes/societestable.php:18
+#: ./templates/users/table.php:17
+msgid "الإجراءات"
+msgstr "Actions"
+
+#: ./templates/Pages/home.php:12
+msgid "Home"
+msgstr "Home"
+
+#: ./templates/Piecesreglements/add.php:23
+msgid "Enregistrer"
+msgstr "Save"
+
+#: ./templates/Reglements/index.php:8
+msgid "New Reglement"
+msgstr "New Payment"
+
+#: ./templates/Reglements/index.php:9
+msgid "Reglements"
+msgstr "Payments"
+
+#: ./templates/Reglements/reglementstable.php:3
+msgid "إدارة الدفعات"
+msgstr "Payments Management"
+
+#: ./templates/Reglements/reglementstable.php:4
+msgid "+ دفعة جديدة"
+msgstr "+ New Payment"
+
+#: ./templates/Reservations/index.php:3
+#: ./templates/Reservations/reservationstable.php:5
+msgid "إدارة الحجوزات"
+msgstr "Reservations Management"
+
+#: ./templates/Reservations/index.php:4
+#: ./templates/Reservations/reservationstable.php:6
+msgid "+ حجز جديد"
+msgstr "+ New Reservation"
+
+#: ./templates/Reservationsdetails/edit.php:14
+msgid "Modifier les Détails de Réservation"
+msgstr "Edit Reservation Details"
+
+#: ./templates/Reservationsdetails/edit.php:47
+msgid "Enregistrer les modifications"
+msgstr "Save changes"
+
+#: ./templates/Reservationsdetails/index.php:8
+#: ./templates/Reservationsdetails/view.php:14
+msgid "New Reservationsdetail"
+msgstr "New Reservation Detail"
+
+#: ./templates/Reservationsdetails/index.php:9
+msgid "Reservationsdetails"
+msgstr "Reservation Details"
+
+#: ./templates/Reservationsdetails/view.php:11
+msgid "Edit Reservationsdetail"
+msgstr "Edit Reservation Detail"
+
+#: ./templates/Reservationsdetails/view.php:12
+msgid "Delete Reservationsdetail"
+msgstr "Delete Reservation Detail"
+
+#: ./templates/Reservationsdetails/view.php:13
+msgid "List Reservationsdetails"
+msgstr "List Reservation Details"
+
+#: ./templates/Reservationsdetails/view.php:22
+msgid "Reservation"
+msgstr "Reservation"
+
+#: ./templates/Reservationsdetails/view.php:26
+msgid "Chalet"
+msgstr "Chalet"
+
+#: ./templates/Reservationsdetails/view.php:30
+msgid "Tarif"
+msgstr "Rate"
+
+#: ./templates/Reservationsdetails/view.php:34
+msgid "Statut"
+msgstr "Status"
+
+#: ./templates/Reservationsdetails/view.php:38
+msgid "Id"
+msgstr "Id"
+
+#: ./templates/Reservationsdetails/view.php:42
+msgid "Prix"
+msgstr "Price"
+
+#: ./templates/Reservationsdetails/view.php:46
+msgid "Date Debut"
+msgstr "Start Date"
+
+#: ./templates/Reservationsdetails/view.php:50
+msgid "Date Fin"
+msgstr "End Date"
+
+#: ./templates/Tarifs/index.php:8
+msgid "New Tarif"
+msgstr "New Rate"
+
+#: ./templates/Tarifs/index.php:9
+msgid "Tarifs"
+msgstr "Rates"
+
+#: ./templates/Tarifs/tarifstable.php:3
+msgid "إدارة التعريفات"
+msgstr "Rates Management"
+
+#: ./templates/Tarifs/tarifstable.php:4
+msgid "+ تعريف جديد"
+msgstr "+ New Rate"
+
+#: ./templates/Typechalets/index.php:10
+#: ./templates/users/index.php:10
+msgid "User Management"
+msgstr "User Management"
+
+#: ./templates/Typechalets/index.php:11
+#: ./templates/users/index.php:11
+msgid "+ New User"
+msgstr "+ New User"
+
+#: ./templates/Typechalets/index.php:42
+#: ./templates/users/index.php:42
+msgid "Are you sure you want to delete #{0}?"
+msgstr "Are you sure you want to delete #{0}?"
+
+#: ./templates/Typechalets/typechaletstable.php:3
+msgid "إدارة أنواع الشاليهات"
+msgstr "Chalet Types Management"
+
+#: ./templates/Typechalets/typechaletstable.php:4
+msgid "+ نوع جديد"
+msgstr "+ New Type"
+
+#: ./templates/layout/error.php:36
+msgid "Back"
+msgstr "Back"
+
+#: ./templates/societes/index.php:8
+msgid "New Societe"
+msgstr "New Company"
+
+#: ./templates/societes/index.php:9
+msgid "Societes"
+msgstr "Companies"
+
+#: ./templates/societes/societestable.php:3
+msgid "إدارة الشركات"
+msgstr "Companies Management"
+
+#: ./templates/societes/societestable.php:4
+msgid "+ شركة جديدة"
+msgstr "+ New Company"
+
+#: ./templates/societes/societestable.php:13
+msgid "الشعار"
+msgstr "Logo"
+
+#: ./templates/users/table.php:3
+msgid "إدارة المستخدمين"
+msgstr "Users Management"
+
+#: ./templates/users/table.php:4
+msgid "+ مستخدم جديد"
+msgstr "+ New User"

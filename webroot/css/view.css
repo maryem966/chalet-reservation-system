@@ -1,0 +1,50 @@
+.user-view-box {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  direction: ltr;
+}
+
+.view-title {
+  font-size: 22px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.user-info p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.user-info p strong {
+  color: #60cff7;
+  margin-left: 8px;
+}
+
+.view-actions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-back {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  border: none;
+}
+
+.btn-back:hover {
+  background-color: #45a049;
+}

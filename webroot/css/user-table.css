@@ -1,0 +1,195 @@
+/* ---------- USER TABLE STYLING ---------- */
+
+.user-table-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  direction: ltr;
+}
+
+.user-table-section h3 {
+  color: #00070e;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.user-table-section .btn {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.user-table-section .table {
+  width: 100%;
+  margin-bottom: 0;
+  border-collapse: collapse;
+  border: 1px solid #eaeaea;
+}
+
+.user-table-section .table thead {
+  background-color: #60cff7;
+  color: white;
+  text-align: center;
+}
+
+.user-table-section .table th,
+.user-table-section .table td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.user-table-section .table tbody tr:hover {
+  background-color: #f1faff;
+}
+
+.user-table-section .table td .btn {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/* Pagination */
+.user-table-section .pagination {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.user-table-section .pagination li {
+  display: inline;
+}
+
+.user-table-section .page-link {
+  display: inline-block;
+  padding: 6px 10px;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.user-table-section .page-link:hover {
+  background-color: #e9f5ff;
+  border-color: #60cff7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .user-table-section .table {
+    font-size: 13px;
+  }
+
+  .user-table-section .btn {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
+
+
+
+.user-table-section .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.user-table-section .btn-add-user {
+  background-color: #f26d9e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.user-table-section .btn-add-user:hover {
+  background-color: #f26d9e;
+}
+.user-table-section .table th a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.user-table-section .table th a:hover {
+  text-decoration: underline;
+}
+
+
+.user-table-section .btn-action {
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.btn-view {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-view:hover { background-color: #0056b3; }
+.btn-edit:hover { background-color: #e0a800; }
+.btn-delete:hover { background-color: #c82333; }
+
+
+
+.form-select-sm {
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 3px solid #ee6ea4;
+  min-width: 120px;
+}
+
+
+
+
+
+
+
+
+.btn-back {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  border: none;
+}
+
+.btn-back:hover {
+  background-color: #45a049;
+}
